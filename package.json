@@ -1,0 +1,14 @@
+{
+	"name": "dynomigrate",
+	"version": "1.0.0",
+	"main": "index.js",
+	"bin": {
+		"dynomigrate": "./index.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"aws-sdk": "^2.1251.0",
+		"lodash": "^4.17.21"
+	}
+}
