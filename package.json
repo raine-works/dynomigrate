@@ -2,13 +2,22 @@
 	"name": "dynomigrate",
 	"version": "1.0.0",
 	"main": "index.js",
+	"license": "MIT",
 	"bin": {
 		"dynomigrate": "./index.js"
 	},
-	"author": "",
-	"license": "ISC",
+	"homepage": "https://github.com/raine-works/dynomigrate#readme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/raine-works/dynomigrate.git"
+	},
+	"author": "raine-works",
 	"dependencies": {
 		"aws-sdk": "^2.1251.0",
 		"lodash": "^4.17.21"
+	},
+	"engines": {
+		"npm": ">=8.0.0",
+		"node": ">=16.0.0"
 	}
 }
